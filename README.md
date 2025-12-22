@@ -24,7 +24,7 @@
 ---
 
 ## Wiring Diagram
-Refer to the wiring diagram provided in the [assembly document](docs\WiringDiagram.pdf) for proper pin connections between the Arduino, sensor, and actuator.
+Refer to the [wiring diagram](docs\WiringDiagram.pdf) for proper pin connections between the Arduino, sensor, and actuator.
 
 ---
 

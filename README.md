@@ -1,5 +1,5 @@
 # Automatic Light
-![Rendered Image](docs/AutomaticLightRender.jpg)
+![Rendered Image](docs/AutomaticLightRender.png)
 ## Overview
 **Automatic Light** is a simple project that automatically turns a light switch on or off. The system detects whether a person is present using an IR sensor and actuates a servo to switch the switch on or off, reducing power consumption.
 

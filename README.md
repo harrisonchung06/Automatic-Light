@@ -7,12 +7,16 @@
 
 ## Hardware Requirements
 - 3D Printer
-
+- Allen Keys
+- Screwdriver
 ---
 
 ## Software Requirements
-- Arduino IDE
-
+- VSCode
+- PlatformIO extension
+- CPP extensions
+OR
+- Ardunio IDE
 ---
 
 ## Assembly Instructions

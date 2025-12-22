@@ -16,7 +16,7 @@
 ---
 
 ## Assembly Instructions
-1. Purchase all components within the [BOM sheet](docs\BOM Automatic Light.xlsx). 
+1. Purchase all components within the [BOM sheet](docs\BOMAutomaticLight.xlsx). 
 2. 3D print all required STL files.
 3. Refer to the [assembly document](docs/assembly_document.pdf) to physically assemble the project.
 4. Upload the Arduino sketch to the board using the Arduino IDE.
@@ -24,7 +24,7 @@
 ---
 
 ## Wiring Diagram
-Refer to the wiring diagram provided in the [assembly document](docs\Wiring Diagram.pdf) for proper pin connections between the Arduino, sensor, and actuator.
+Refer to the wiring diagram provided in the [assembly document](docs\WiringDiagram.pdf) for proper pin connections between the Arduino, sensor, and actuator.
 
 ---
 

@@ -30,8 +30,8 @@ Refer to the [wiring diagram](docs/WiringDiagram.pdf) for proper pin connections
 
 ## Usage
 1. Place the system in the desired room, next to the light switch.
-2. When occupancy is detected, the light will automatically turn on.
-3. When no presence is detected for a defined period, the light will turn off.
+2. When occupant enters the room, the light will automatically turn on.
+3. When occupant leaves the room, the light will automatically turn off. 
 
 A demonstration video of the system in operation is available [here](https://example.com/demo-video).
 

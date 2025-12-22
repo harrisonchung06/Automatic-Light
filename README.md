@@ -1,12 +1,79 @@
-# Automatic-Light
+# Automatic Light
 
-description
-A basic Ardunio Project to automatically turn the lights on or off in my room depending on whether or not i am in the room 
+## Overview
+**Automatic Light** is a simple project that automatically turns a light switch on or off. The system detects whether a person is present using an IR sensor and actuates a servo to switch the switch on or off, reducing power consumption.
 
-assembly 
-1. print the stls
-2. solder electronics or mount to perfboard (optional)
-3. upload code
+---
 
-future work
-1. turn off servo when not needed 
+## Hardware Requirements
+- 3D Printer
+
+---
+
+## Software Requirements
+- Arduino IDE
+
+---
+
+## Assembly Instructions
+1. Purchase all components within the [BOM sheet](docs/BOM.xslx). 
+2. 3D print all required STL files.
+3. Refer to the [assembly document](docs/assembly_document.pdf) to physically assemble the project.
+4. Upload the Arduino sketch to the board using the Arduino IDE.
+
+---
+
+## Wiring Diagram
+Refer to the wiring diagram provided in the [assembly document](docs/assembly_document.pdf) for proper pin connections between the Arduino, sensor, and actuator.
+
+---
+
+## Usage
+1. Place the system in the desired room, next to the light switch.
+2. When occupancy is detected, the light will automatically turn on.
+3. When no presence is detected for a defined period, the light will turn off.
+
+A demonstration video of the system in operation is available [here](https://example.com/demo-video).
+
+---
+
+## Configuration
+You can adjust the following parameters in the Arduino code:
+- Servo angle
+- Delay before turning lights off
+
+---
+
+## Future Improvements
+- Disable or power down the servo motor when not actively in use
+- Integrate wireless control (Wi-Fi or Bluetooth)
+
+---
+
+## Project Structure
+```
+Automatic-Light/
+├── src/
+│   └── automatic_light.ino
+├── stl/
+│   └── mechanical_parts.stl
+├── docs/
+│   └── wiring_diagram.png
+├── README.md
+└── LICENSE
+```
+
+---
+
+## Contributing
+Contributions are welcome. Please:
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes with clear messages
+4. Submit a pull request
+
+---
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+

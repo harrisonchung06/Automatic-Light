@@ -25,7 +25,7 @@
 1. Purchase all components within the [BOM sheet](docs/BOM.pdf). 
 2. 3D print all required STL files.
 3. Refer to the [assembly document](docs/assembly_document.pdf) to physically assemble the project.
-4. Upload the Arduino sketch to the board using the Arduino IDE.
+4. Open the project using the PlatformIO extension or transfer to a .ino file and upload via Ardunio IDE 
 
 ---
 

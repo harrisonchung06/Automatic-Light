@@ -44,6 +44,8 @@ Refer to the [wiring diagram](docs/WiringDiagram.pdf) for proper pin connections
 ## Demo Video
 [here](docs/demo.mp4)
 
+---
+
 ## Configuration
 You can adjust the following parameters in the Arduino code:
 - Servo angle

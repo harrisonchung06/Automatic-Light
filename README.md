@@ -15,7 +15,9 @@
 - VSCode
 - PlatformIO extension
 - CPP extensions  
+  
 OR
+  
 - Ardunio IDE
 ---
 

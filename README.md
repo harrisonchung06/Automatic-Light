@@ -14,8 +14,9 @@
 ## Software Requirements
 - VSCode
 - PlatformIO extension
-- CPP extensions\n
-OR\n
+- CPP extensions
+OR  
+
 - Ardunio IDE
 ---
 

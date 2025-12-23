@@ -16,7 +16,7 @@
 - PlatformIO extension
 - CPP extensions  
   
-OR
+  OR
   
 - Ardunio IDE
 ---

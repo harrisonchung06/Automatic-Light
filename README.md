@@ -1,5 +1,5 @@
 # Automatic Light
-
+![Rendered Image](docs/AutomaticLightRender.png)
 ## Overview
 **Automatic Light** is a simple project that automatically turns a light switch on or off. The system detects whether a person is present using an IR sensor and actuates a servo to switch the switch on or off, reducing power consumption.
 
@@ -7,19 +7,25 @@
 
 ## Hardware Requirements
 - 3D Printer
-
+- Allen Keys
+- Screwdriver
 ---
 
 ## Software Requirements
-- Arduino IDE
-
+- VSCode
+- PlatformIO extension
+- CPP extensions  
+  
+  OR
+  
+- Ardunio IDE
 ---
 
 ## Assembly Instructions
 1. Purchase all components within the [BOM sheet](docs/BOM.pdf). 
 2. 3D print all required STL files.
 3. Refer to the [assembly document](docs/assembly_document.pdf) to physically assemble the project.
-4. Upload the Arduino sketch to the board using the Arduino IDE.
+4. Open the project using the PlatformIO extension or transfer to a .ino file and upload via Ardunio IDE 
 
 ---
 
@@ -33,7 +39,10 @@ Refer to the [wiring diagram](docs/WiringDiagram.pdf) for proper pin connections
 2. When occupant enters the room, the light will automatically turn on.
 3. When occupant leaves the room, the light will automatically turn off. 
 
-A demonstration video of the system in operation is available [here](https://example.com/demo-video).
+---
+
+## Demo Video
+[here](docs/demo.mp4)
 
 ---
 

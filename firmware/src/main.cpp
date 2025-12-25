@@ -21,7 +21,7 @@ void setup() {
 void loop() {
 
   if (digitalRead(3) == 0 && !flag){
-    cw(neutral_pos+35); 
+    cw(neutral_pos+40); 
     flag = true;
     Serial.print("turn on!"); 
   } 

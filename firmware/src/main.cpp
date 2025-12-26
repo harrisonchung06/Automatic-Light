@@ -3,15 +3,19 @@
 
 Servo s; 
 bool flag; 
-int neutral_pos;
-int del;
-int t1;
-int t2;
 
+//Configurable variables 
+int neutral_pos; //Neutral position to hold 
+int del; //Delay 
+int t1; //Target position for "On"
+int t2; // Target position for "Off"
+
+//Prototype functions 
 void cw(int target);
 void ccw(int target);
 void neutral();
 
+//Setup function
 void setup() {
   Serial.begin(9600);
   flag = false; 
@@ -24,6 +28,7 @@ void setup() {
   neutral(); 
 }
 
+//Loop function
 void loop() {
 
   if (digitalRead(3) == 0 && !flag){
@@ -42,7 +47,7 @@ void loop() {
     neutral();  
   }
 }
-
+//Moves the servo clockwise to the absolute target position (target > current position, 0 <= target <= 180)
 void cw(int target) {
   int pos = s.read();
   for (int i=pos; i<=target; i++){
@@ -50,7 +55,7 @@ void cw(int target) {
     delay(del);
   }
 }
-
+//Moves the servo counterclockwise to the absolute target position (target < current position, 0 <= target <= 180)
 void ccw(int target) {
   int pos = s.read();
   for (int i=pos; i>=target; i--){
@@ -59,6 +64,7 @@ void ccw(int target) {
   }
 }
 
+//Holds the neutral position
 void neutral(){
   int pos = s.read();
   if (pos < neutral_pos){

@@ -4,6 +4,9 @@
 Servo s; 
 bool flag; 
 int neutral_pos;
+int del;
+int t1;
+int t2;
 
 void cw(int target);
 void ccw(int target);
@@ -13,6 +16,9 @@ void setup() {
   Serial.begin(9600);
   flag = false; 
   neutral_pos = 90; 
+  del=5;
+  t1=80;
+  t2=50;
   pinMode(3, INPUT);
   s.attach(2); 
   neutral(); 
@@ -21,13 +27,13 @@ void setup() {
 void loop() {
 
   if (digitalRead(3) == 0 && !flag){
-    cw(neutral_pos+40); 
+    cw(neutral_pos+t1); 
     flag = true;
     Serial.print("turn on!"); 
   } 
 
   if (digitalRead(3) == 0 && flag){
-    ccw(neutral_pos-60); 
+    ccw(neutral_pos-t2); 
     flag = false;
     Serial.print("turn off!"); 
   } 
@@ -41,7 +47,7 @@ void cw(int target) {
   int pos = s.read();
   for (int i=pos; i<=target; i++){
     s.write(i);
-    delay(5);
+    delay(del);
   }
 }
 
@@ -49,7 +55,7 @@ void ccw(int target) {
   int pos = s.read();
   for (int i=pos; i>=target; i--){
     s.write(i);
-    delay(5);
+    delay(del);
   }
 }
 
@@ -58,13 +64,13 @@ void neutral(){
   if (pos < neutral_pos){
     for (int i=pos; i<=neutral_pos; i++) {
     s.write(i);
-    delay(5); 
+    delay(del); 
     }
   }
   if (pos > neutral_pos){
     for (int i=pos; i>=neutral_pos; i--) {
     s.write(i);
-    delay(5);
+    delay(del);
     }
   } 
 }

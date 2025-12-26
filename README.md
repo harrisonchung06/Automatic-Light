@@ -1,5 +1,13 @@
 # Automatic Light
 ![Rendered Image](docs/Render.png)
+
+---
+
+## Demo Video
+![Demo Video](https://youtu.be/-uMymPa1Mh8)
+
+---
+
 ## Overview
 **Automatic Light** is a simple project that automatically turns a light switch on or off. The system detects whether a person is present using an IR sensor and actuates a servo to switch the switch on or off, reducing power consumption.
 
@@ -38,11 +46,6 @@ Refer to the [wiring diagram](docs/WiringDiagram.pdf) for proper pin connections
 1. Place the system in the desired room, next to the light switch.
 2. When occupant enters the room, the light will automatically turn on.
 3. When occupant leaves the room, the light will automatically turn off. 
-
----
-
-## Demo Video
-[here](docs/AutomaticLightDemo.mp4)
 
 ---
 

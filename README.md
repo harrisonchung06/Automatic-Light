@@ -5,6 +5,8 @@
 
 ## Demo Video
 
+https://github.com/user-attachments/assets/7cc1973e-2f53-455a-8cc4-6be9429380c5
+
 ---
 
 ## Overview

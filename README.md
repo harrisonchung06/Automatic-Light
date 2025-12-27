@@ -33,7 +33,7 @@ https://github.com/user-attachments/assets/7cc1973e-2f53-455a-8cc4-6be9429380c5
 ## Assembly Instructions
 1. Purchase all components within the [BOM sheet](docs/BOM.pdf). 
 2. 3D print all required STL files.
-3. Refer to the [assembly document](docs/assembly_document.pdf) to physically assemble the project.
+3. Refer to the [assembly document](docs/AssemblyDocument.pdf) to physically assemble the project.
 4. Open the project using the PlatformIO extension or transfer to a .ino file and upload via Ardunio IDE 
 
 ---

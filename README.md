@@ -4,7 +4,7 @@
 ---
 
 ## Demo Video
-![Demo Video](https://youtu.be/-uMymPa1Mh8)
+![AutomaticLightDemo](https://github.com/user-attachments/assets/62dc3ba9-7d6d-4e67-9993-af34da16bc37)
 
 ---
 
